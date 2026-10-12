@@ -12,11 +12,31 @@ A cross-platform Hello World project in Python with a virtual environment (venv)
 
 ## How to run the agent
 
-[Placeholder: to be filled later]
+1. Open the repository in VS Code.
+2. Create a feature branch with `git switch -c feature/hello-world`.
+3. Open Copilot Chat, switch to Agent mode, select the `build-engineer` agent, and run `/init`.
+4. Review the generated files before committing.
+5. Run `/check` to validate the project without changing it.
+
+See [docs/usage.md](docs/usage.md) for the full workflow.
 
 ## How to build and run the project
 
-[Placeholder]
+On Windows:
+
+```powershell
+ci.bat
+```
+
+On Linux and macOS:
+
+```bash
+bash ci.sh
+```
+
+After the build, run the generated binary: `.\dist\hello.exe` on Windows or `./dist/hello` on Linux/macOS.
+
+See [docs/usage.md](docs/usage.md) for details.
 
 ## Project structure
 

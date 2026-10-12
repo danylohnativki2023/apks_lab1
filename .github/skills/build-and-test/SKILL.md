@@ -49,6 +49,7 @@ Create the file with this exact content:
 ```text
 pytest>=8,<9
 pyinstaller>=6
+pyyaml>=6
 ```
 
 ### 4. Create ci.sh
@@ -159,6 +160,8 @@ List of files created or updated:
 - ci.sh
 - ci.bat
 
+PyYAML is included because the check command uses it to validate the workflow YAML.
+
 ## Verification
 
 This skill is successful when:
@@ -167,6 +170,7 @@ This skill is successful when:
 - dist/hello exists and prints "Hello, World!"
 - dist/hello.exe exists and prints "Hello, World!" on Windows
 - build/, dist/, and .venv/ are not tracked by Git
+- the check command validates the workflow YAML successfully using PyYAML
 
 ## Example input
 

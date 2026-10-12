@@ -1,11 +1,6 @@
 ---
 description: "Build engineer for a cross-platform Python Hello World project with venv, pytest, PyInstaller, and GitHub Actions."
-tools:
-  - search
-  - read_file
-  - list_dir
-  - edit_file
-  - run_in_terminal
+tools: [execute, read, edit, search, todo]
 ---
 
 # Build Engineer Agent

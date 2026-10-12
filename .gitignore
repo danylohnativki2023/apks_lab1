@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# IDE settings
+.idea/
+.vscode/
+
+# Local environment and logs
+.env
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
